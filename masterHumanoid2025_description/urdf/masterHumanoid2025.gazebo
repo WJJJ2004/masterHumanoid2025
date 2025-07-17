@@ -70,13 +70,6 @@
   <self_collide>true</self_collide>
 </gazebo>
 
-<gazebo reference="left_lower_gearbox_1">
-  <material>${body_color}</material>
-  <mu1>0.2</mu1>
-  <mu2>0.2</mu2>
-  <self_collide>true</self_collide>
-</gazebo>
-
 <gazebo reference="right_lower_gearbox_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
@@ -84,7 +77,7 @@
   <self_collide>true</self_collide>
 </gazebo>
 
-<gazebo reference="left_foot_1">
+<gazebo reference="left_lower_gearbox_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
@@ -92,6 +85,13 @@
 </gazebo>
 
 <gazebo reference="right_foot_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="left_foot_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
